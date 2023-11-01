@@ -19,7 +19,8 @@ I'm aiming to complete 1 project per day to improve my basic front-end skills in
 - adding and removing classes based on mouseclick event
 - vw(viewport width), recommended due to it's dependency on the viewport rather than it's parent
 - vh(viewport height), same as above
-- font-size, same as above in terms of responsive layouts
+- font-size(rem), same as above in terms of responsive layouts
+
 **Original Ideas**
 1. website top page
 eg. campaigns (a peek can be enough to want to scroll)
