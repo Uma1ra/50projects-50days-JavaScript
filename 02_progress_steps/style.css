@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=M+PLUS+Rounded+1c&family=Pixelify+Sans&display=swap');
+
 :root {
   --line-border-fill: #c97586;
   --line-border-empty: #f4b3c2;
@@ -7,6 +9,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 30px;
 }
 
 body {
@@ -26,7 +30,7 @@ body {
   display: flex;
   justify-content: space-between;
   max-width: 100%;
-  width: 350px;
+  width: 600px;
   margin-bottom: 30px;
   position: relative;
 }
@@ -38,7 +42,7 @@ body {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  height: 4px;
+  height: 8px;
   width: 100%;
   z-index: -1;
 }
@@ -49,7 +53,7 @@ body {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  height: 4px;
+  height: 8px;
   width: 0%;
   z-index: -1;
   transition: 0.4s ease;
@@ -57,10 +61,10 @@ body {
 
 .circle {
   background-color: #f9f4ff;
-  border: 3px solid var(--line-border-empty);
+  border: 6px solid var(--line-border-empty);
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 60px;
+  width: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,8 +81,7 @@ body {
   border-radius: 6px;
   padding: 8px 30px;
   cursor: pointer;
-  margin: 5px;
-  font-size: 14px;
+  margin: 15px;
   color: #f9f4ff;
 }
 
