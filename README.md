@@ -54,3 +54,22 @@ I'm aiming to complete 1 project per day to improve my basic front-end skills in
   2. to do lists/tasks (for daily routines)
   3. step-by-step manual
 </details>
+
+<details>
+  <summary>Day3 (Rotating Nav)</summary>
+  
+  **Things I Learned**
+  - giving a class to show effects under specific conditions is js
+  - the versatility of transform: translateX (to take out or bring back objects into view)
+  - writing :nth in sass format
+  - how to define the same folder (~/)
+  - using live sass compiler
+  
+  **Original Ideas**
+  1. learning tool (for all ages)
+  eg. flash cards, word/image rotate to reveal info underneath
+  2. mini-game
+  eg. reveal slight clues underneath/random info or trivia that changes everytime it's activated
+  3. maybe a dice?
+
+</details>
