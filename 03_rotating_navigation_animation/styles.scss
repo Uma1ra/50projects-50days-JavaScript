@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Dancing+Script&family=M+PLUS+Rounded+1c&family=Pixelify+Sans&display=swap');
+
+$background-color: #e6eae3;
+$primary-color: #726d40;
+$secondary-color: #dcd3b2;
+$pop-color: #c3d825;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dancing Script', cursive;
+  background-color: $background-color;
+  overflow-x: hidden;
+  color: #1c1c1c;
+  font-size: 1.6rem;
+}
+
+.container {
+  background-color: $background-color;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 60px;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+.circle {
+  background-color: $primary-color;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
+
+.circle button {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  color: $secondary-color;
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+.circle button#open {
+  left: 60%;
+}
+
+.circle button#close {
+  top: 60%;
+  left: 40%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.content img {
+  max-width: 90%;
+  margin-top: 15px;
+  border: 9px solid #1c1c1c;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.content small {
+  color: $primary-color;
+  font-style: italic;
+}
+
+.content p {
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+nav {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  z-index: 100;
+}

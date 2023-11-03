@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Dancing+Script&family=M+PLUS+Rounded+1c&family=Pixelify+Sans&display=swap');
-
-:root {
-  --background-color: #e6eae3;
-  --primary-color: #726d40;
-  --secondary-color: #dcd3b2;
-  --pop-color: #c3d825;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Dancing+Script&family=M+PLUS+Rounded+1c&family=Pixelify+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,15 +6,15 @@
 }
 
 body {
-  font-family: 'Dancing Script', cursive;
-  background-color: var(--pop-color);
+  font-family: "Dancing Script", cursive;
+  background-color: #e6eae3;
   overflow-x: hidden;
   color: #1c1c1c;
   font-size: 1.6rem;
 }
 
 .container {
-  background-color: var(--background-color);
+  background-color: #e6eae3;
   transform-origin: top left;
   transition: transform 0.5s linear;
   width: 100vw;
@@ -41,7 +33,7 @@ body {
 }
 
 .circle {
-  background-color: var(--primary-color);
+  background-color: #726d40;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -60,7 +52,7 @@ body {
   border: none;
   background: transparent;
   font-size: 30px;
-  color: var(--secondary-color);
+  color: #dcd3b2;
 }
 
 .circle button:focus {
@@ -90,7 +82,7 @@ body {
 }
 
 .content small {
-  color: var(--primary-color);
+  color: #726d40;
   font-style: italic;
 }
 
@@ -104,4 +96,4 @@ nav {
   bottom: 40px;
   left: 0;
   z-index: 100;
-}
+}/*# sourceMappingURL=styles.css.map */
