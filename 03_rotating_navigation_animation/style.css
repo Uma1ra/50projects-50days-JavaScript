@@ -98,3 +98,10 @@ body {
   margin: 20px 0;
   line-height: 1.2;
 }
+
+nav {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  z-index: 100;
+}
