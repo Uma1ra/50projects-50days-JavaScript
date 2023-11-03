@@ -70,22 +70,19 @@ body {
   transform-origin: top left;
 }
 
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
 .content img {
   max-width: 90%;
   margin-top: 15px;
   border: 9px solid #1c1c1c;
 }
-
-.content {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
 .content small {
   color: #726d40;
   font-style: italic;
 }
-
 .content p {
   margin: 20px 0;
   line-height: 1.2;
@@ -96,4 +93,4 @@ nav {
   bottom: 40px;
   left: 0;
   z-index: 100;
-}/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=style.css.map */

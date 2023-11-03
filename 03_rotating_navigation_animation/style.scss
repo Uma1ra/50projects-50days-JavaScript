@@ -76,25 +76,25 @@ body {
   transform-origin: top left;
 }
 
-.content img {
-  max-width: 90%;
-  margin-top: 15px;
-  border: 9px solid #1c1c1c;
-}
-
 .content {
   max-width: 900px;
   margin: 0 auto;
-}
 
-.content small {
-  color: $primary-color;
-  font-style: italic;
-}
+  img {
+    max-width: 90%;
+    margin-top: 15px;
+    border: 9px solid #1c1c1c;
+  }
 
-.content p {
-  margin: 20px 0;
-  line-height: 1.2;
+  small {
+    color: $primary-color;
+    font-style: italic;
+  }
+
+  p {
+    margin: 20px 0;
+    line-height: 1.2;
+  }
 }
 
 nav {
