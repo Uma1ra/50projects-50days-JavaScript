@@ -55,7 +55,7 @@ body {
 .circle button {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   border: none;
   background: transparent;
@@ -73,6 +73,28 @@ body {
 
 .circle button#close {
   top: 60%;
+  left: 40%;
   transform: rotate(90deg);
   transform-origin: top left;
+}
+
+.content img {
+  max-width: 90%;
+  margin-top: 15px;
+  border: 9px solid #1c1c1c;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.content small {
+  color: var(--primary-color);
+  font-style: italic;
+}
+
+.content p {
+  margin: 20px 0;
+  line-height: 1.2;
 }
