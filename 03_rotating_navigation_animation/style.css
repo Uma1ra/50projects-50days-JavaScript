@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Dancing+Script&family=M+PLUS+Rounded+1c&family=Pixelify+Sans&display=swap');
+
+:root {
+  --background-color: #e6eae3;
+  --primary-color: #726d40;
+  --secondary-color: #dcd3b2;
+  --pop-color: #c3d825;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dancing Script', cursive;
+  background-color: var(--pop-color);
+}
+
+.container {
+  background-color: var(--background-color);
+}
