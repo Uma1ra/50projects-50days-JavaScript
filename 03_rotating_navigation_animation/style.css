@@ -16,8 +16,63 @@
 body {
   font-family: 'Dancing Script', cursive;
   background-color: var(--pop-color);
+  overflow-x: hidden;
+  color: #1c1c1c;
+  font-size: 1.6rem;
 }
 
 .container {
   background-color: var(--background-color);
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 60px;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+.circle {
+  background-color: var(--primary-color);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
+
+.circle button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+.circle button#open {
+  left: 60%;
+}
+
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
 }
