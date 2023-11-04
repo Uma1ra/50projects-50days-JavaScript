@@ -33,6 +33,11 @@ body {
   color: #ffff00;
   transition: width 0.5s ease;
 }
+.container .search ::placeholder {
+  color: #ffff00;
+  padding-left: 5%;
+  opacity: 70%;
+}
 .container .search .btn {
   margin: 0 auto;
   height: 50px;
