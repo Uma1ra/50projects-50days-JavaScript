@@ -73,3 +73,19 @@ I'm aiming to complete 1 project per day to improve my basic front-end skills in
   3. maybe a dice?
 
 </details>
+
+<details>
+  <summary>Day4 (Hidden Search)</summary>
+  
+  **Things I Learned**
+  - how to write in a more sass-like format
+  - using calculation for translate
+  - was able to write js almost without guidance
+  - tweeking css as I want
+  
+  **Original Ideas**
+  1. hidden navigation
+  2. hidden text for images (extra info and such)
+  3. e-card
+
+</details>
