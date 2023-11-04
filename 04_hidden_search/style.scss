@@ -48,6 +48,19 @@ body {
       top: 0;
       left: 0;
     }
+
+    .btn:focus,
+    .input:focus {
+      outline: $secondary-color ridge 3px;
+    }
+  }
+
+  .search.active .input {
+    width: 200px;
+  }
+
+  .search.active .btn {
+    transform: translateX(198px);
   }
 
 }

@@ -38,4 +38,14 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+}
+.container .search .btn:focus,
+.container .search .input:focus {
+  outline: #ffff00 ridge 3px;
+}
+.container .search.active .input {
+  width: 200px;
+}
+.container .search.active .btn {
+  transform: translateX(198px);
 }/*# sourceMappingURL=style.css.map */
