@@ -89,3 +89,17 @@ I'm aiming to complete 1 project per day to improve my basic front-end skills in
   3. e-card
 
 </details>
+
+<details>
+  <summary>Day5 (Blurry Loading)</summary>
+  
+  **Things I Learned**
+  - math can be searched and used rather than original math(so long as there's basic understanding of the function)
+  - rgba can be used for opacity when elements need to be isolated
+  - it's very important to check for misspellings when functions don't get called
+  
+  **Original Ideas**
+  1. asthetic loading for websites
+  2. to show progress of a quiz(an image can be blurred and become clearer as they answer for a final reveal) 
+
+</details>
