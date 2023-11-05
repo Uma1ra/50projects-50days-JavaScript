@@ -23,6 +23,7 @@ body {
   width: calc(100vw + 60px);
   height: calc(100vh + 60px);
   z-index: -1;
+  filter: blur(0px);
 }
 
 .loading-circle {
@@ -34,9 +35,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
 
-  .loading-text {
-    font-size: 3rem;
-    color: $primary-color;
-  }
+.loading-text {
+  font-size: 3rem;
+  color: $primary-color;
 }
