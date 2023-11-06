@@ -1,5 +1,26 @@
+$bg-color: #eaf4fc;
+$primary-color: #3e62ad;
+$secondary-color: #c7dc68;
+$rogue-color: #e95295;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin: 15px;
+}
+
+.box {
+  background-color: ;
 }
