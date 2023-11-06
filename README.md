@@ -103,3 +103,18 @@ I'm aiming to complete 1 project per day to improve my basic front-end skills in
   2. to show progress of a quiz(an image can be blurred and become clearer as they answer for a final reveal) 
 
 </details>
+
+<details>
+  <summary>Day6 (Scroll Animation)</summary>
+  
+  **Things I Learned**
+  - using inner height method to determine position in the viewport
+  - common fallback fonts
+  - using transform for eaasing in elements
+  - dark color theme
+  
+  **Original Ideas**
+  1. coporate websites
+  2. interactive website for kids
+
+</details>
