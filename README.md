@@ -118,3 +118,17 @@ I'm aiming to complete 1 project per day to improve my basic front-end skills in
   2. interactive website for kids
 
 </details>
+
+<details>
+  <summary>Day7 (Split Landing Page)</summary>
+  
+  **Things I Learned**
+  - mouseenter/mouseleave event
+  - css can be written differently and still achieve the same results
+  
+  **Original Ideas**
+  1. coporate website
+  2. interactive navigation
+  3. showing image or text as extra info or navigation
+
+</details>
