@@ -32,6 +32,21 @@ body {
   transform: translateX(-50%);
   white-space: nowrap;
 }
+.split .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: 15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
 .split.left {
   background: url("../images/ps.jpg") no-repeat left/cover;
@@ -41,11 +56,20 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: rgba(170, 207, 83, 0.7);
+  background-color: rgba(170, 207, 83, 0.8);
+}
+.split.left .btn {
+  color: #1c1c1c;
+  border: 4px solid #1c1c1c;
+}
+.split.left .btn:hover {
+  background-color: #6e7955;
+  border-color: #6e7955;
 }
 
 .split.right {
   background: url("../images/xbox.jpg") no-repeat left/cover;
+  color: #fff;
 }
 .split.right:before {
   content: "";
@@ -53,6 +77,14 @@ body {
   height: 100%;
   position: absolute;
   background-color: rgba(255, 219, 79, 0.2);
+}
+.split.right .btn {
+  color: #fff;
+  border: 4px solid #fff;
+}
+.split.right .btn:hover {
+  background-color: #e6a800;
+  border-color: #e6a800;
 }
 
 .split.right,
