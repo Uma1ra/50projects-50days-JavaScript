@@ -74,3 +74,23 @@ body {
 .split.right::after {
   transition: all $speed;
 }
+
+.hover-left {
+  .left {
+    width: $hover-width;
+  }
+
+  .right {
+    width: $other-width;
+  }
+}
+
+.hover-right {
+  .right {
+    width: $hover-width;
+  }
+
+  .left {
+    width: $other-width;
+  }
+}

@@ -60,4 +60,18 @@ body {
 .split.right::before,
 .split.right::after {
   transition: all 1000ms;
+}
+
+.hover-left .left {
+  width: 75%;
+}
+.hover-left .right {
+  width: 25%;
+}
+
+.hover-right .right {
+  width: 75%;
+}
+.hover-right .left {
+  width: 25%;
 }/*# sourceMappingURL=style.css.map */
