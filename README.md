@@ -1,5 +1,9 @@
 # 50projects-50days-JavaScript
-I'm aiming to complete 1 project per day to improve my basic front-end skills in 50 days
+I'm aiming to complete 1 project per day to improve my basic front-end skills in 50 days.
+
+Feel free to use my tweeked(font, colors, css, scss) version: https://github.com/Uma1ra/50projects-50days-JavaScript
+
+Referenced Github Repo: https://github.com/bradtraversy/50projects50days
 
 ## Overall Goals
 - deeper understanding of JavaScript code
