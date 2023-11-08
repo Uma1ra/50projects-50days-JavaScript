@@ -24,7 +24,7 @@ body {
 }
 .container h1 {
   text-align: center;
-  margin-bottom: 30px;
+  margin: 20px 0 30px;
 }
 .container a {
   text-decoration: none;
