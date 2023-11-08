@@ -1,5 +1,50 @@
+@import "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap";
+
+$bg-color: #583822;
+$form-bg: #003300;
+$form-text: #f6ad49;
+$secondary-color: #fbd26b;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background: $bg-color;
+}
+
+.container {
+  background-color: $form-bg;
+  color: $form-text;
+  padding: 20px 40px;
+  border-radius: 5px;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f2a0a1;
+  }
+}
+
+.btn {
+   cursor: pointer;
+   display: inline-block;
+   width: 100%;
+   border: none;
+   padding: 15px;
+   background-color: $secondary-color;
+   border-radius: 2px;
 }
