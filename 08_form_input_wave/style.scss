@@ -46,5 +46,52 @@ body {
    border: none;
    padding: 15px;
    background-color: $secondary-color;
-   border-radius: 2px;
+   border-radius: 4px;
+   font-size: 1rem;
+
+   &:hover {
+    background-color: $form-text;
+   }
+
+   &:active {
+    background-color: $form-text;
+    transform: scale(0.98);
+   }
+
+   &:focus {
+    outline: none;
+   }
+}
+
+.text {
+  margin-top: 30px;
+}
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  // width: 300px;
+
+  input {
+    background-color: transparent;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 0;
+    color: $secondary-color;
+    border: none;
+    border-bottom: 3px solid $form-text;
+
+    &:focus,
+    &:valid {
+      outline: none;
+      border-bottom-color: $secondary-color;
+    }
+  }
+
+  label {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    pointer-events: none;
+  }
 }
