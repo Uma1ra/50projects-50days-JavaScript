@@ -136,3 +136,20 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   3. showing image or text as extra info or navigation
 
 </details>
+
+<details>
+  <summary>Day8 (Form Input Wave)</summary>
+  
+  **Things I Learned**
+  - cubic-bezier(interesting way to add custom animation, found a testing site as well)
+  - transition delays using index
+  - how to create as easy but stylish form with overlapping labels
+  - pointer-event(hadn't ocurred to me)
+  
+  **Original Ideas**
+  1. object movements within a page
+  2. navigation panel
+  3. waterfall effect of letters after completing a form and revealing results
+  (for suspense, campaign surprises, winning) 
+
+</details>
