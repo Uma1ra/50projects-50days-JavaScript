@@ -1,10 +1,28 @@
+@import "https://fonts.googleapis.com/css2?family=Agbalumo&display=swap";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Agbalumo, cursive;
 }
 
 body {
   background-color: #fce2c4;
   height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.btn {
+  background-color: #b8d7c3;
+  font-size: 2rem;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 5px dotted #2f5d50;
+  margin: 5px;
+  color: #b44c97;
 }/*# sourceMappingURL=style.css.map */
