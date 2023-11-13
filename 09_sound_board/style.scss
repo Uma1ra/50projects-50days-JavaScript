@@ -1,5 +1,13 @@
+$bg-color: #fce2c4;
+$text-color: #a25768;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body { 
+  background-color: $bg-color;
+  height: 100vh;
 }
