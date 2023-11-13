@@ -153,3 +153,19 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   (for suspense, campaign surprises, winning) 
 
 </details>
+
+<details>
+  <summary>Day9 (Sound Board)</summary>
+  
+  **Things I Learned**
+  - html elements can be added in js
+  - dotted borders can be cute!
+  - there's an issue with calling fonts (works in * but not in body)
+  - opacity can only be used 0.9 and below (tried darkening with 1.5, don't know why I thought that'd work)
+  
+  **Original Ideas**
+  1. pressing buttons in games (actions, events)
+  2. quiz answers (right or wrong ding)
+  3. swooshes or simple sounds for systematic form send, etc
+
+</details>
