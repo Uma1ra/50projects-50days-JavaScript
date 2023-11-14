@@ -169,3 +169,18 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   3. swooshes or simple sounds for systematic form send, etc
 
 </details>
+
+<details>
+  <summary>Day10 (Dad Jokes)</summary>
+  
+  **Things I Learned**
+  - async function (still not that up to speed)
+  - versatility of borders
+  - 3 colors are enough for a simple design
+  - opacity to take away some attention
+  
+  **Original Ideas**
+  1. random recipe/quote/whatever generator
+  2. baby name generator
+
+</details>
