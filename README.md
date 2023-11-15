@@ -184,3 +184,17 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   2. baby name generator
 
 </details>
+
+<details>
+  <summary>Day11 (Event KeyCodes)</summary>
+  
+  **Things I Learned**
+  - "keydown" event
+  - inline-flex (flexes everything in a row)
+  - writing html in js (within back quotation marks)
+
+  **Original Ideas**
+  1. generating code for simple identification?
+  2. "keydown" event could be used for fun interactive screen
+
+</details>
