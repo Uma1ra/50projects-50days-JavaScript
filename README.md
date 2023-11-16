@@ -198,3 +198,23 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   2. "keydown" event could be used for fun interactive screen
 
 </details>
+
+<details>
+  <summary>Day12 (FAQ Collapse)</summary>
+  
+  **Things I Learned**
+  - toggle function in js
+  - was able to layout in css without help
+  - color scheme's getting better
+  - pseudo elements to use as background designs
+  - z-index wasn't working as I'd hoped
+  (there doesn't seem to be a solution for what I was doing, in front of the container but behind the text)
+  - I though simply layering would solve the above... but no
+
+  **Original Ideas**
+  1. collapsable questions, information
+  2. educational purposes, hiding the answers
+  3. hiding list of navigations
+  4. navigation panel or bar, with toggle function (in my case, I used to use boostrap for nav toggle but I think I can stop relying on it all the time)
+
+</details>
