@@ -24,7 +24,7 @@ h1 {
   border: 1px solid #eebba8;
   border-radius: 10px;
   padding: 30px;
-  margin: 20px 0;
+  margin: 20px;
   position: relative;
 }
 
@@ -51,6 +51,23 @@ h1 {
   background-color: #eebba8;
   border-color: #a37575;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.faq.active::before, .faq.active::after {
+  content: "\f005";
+  font-family: "Font Awesome 6 Free";
+  font-size: 3.5rem;
+  color: #fde8d0;
+  opacity: 0.3;
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  z-index: 0;
+}
+.faq.active::after {
+  top: 60px;
+  left: 40px;
+  color: #a37575;
+  opacity: 0.2;
 }
 .faq.active .faq-text {
   display: block;

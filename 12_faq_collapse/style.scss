@@ -30,7 +30,7 @@ h1 {
   border: 1px solid $primary;
   border-radius: 10px;
   padding: 30px;
-  margin: 20px 0;
+  margin: 20px;
   position: relative;
 }
 
@@ -55,10 +55,29 @@ h1 {
 }
 
 .faq.active{
-
   background-color: $primary;
   border-color: $secondary;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+
+  &::before,
+  &::after {
+    content: "\f005";
+    font-family: "Font Awesome 6 Free";
+    font-size: 3.5rem;
+    color: $bg-color;
+    opacity: 0.3;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    z-index: 0;
+  }
+
+  &::after {
+    top: 60px;
+    left: 40px;
+    color: $secondary;
+    opacity: 0.2;
+  }
 
   .faq-text {
     display: block;
