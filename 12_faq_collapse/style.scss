@@ -1,5 +1,54 @@
+@import "https://fonts.googleapis.com/css2?family=Domine&display=swap";
+
+$font: 'Domine', serif;
+$bg-color: #fde8d0;
+$primary: #efab93;
+$secondary: #96514d;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: $font;
+  background-color: $bg-color;
+}
+
+h1 {
+  margin: 50px auto 30px;
+  text-align: center;
+}
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq {
+  border: 1px solid $primary;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px 0;
+}
+
+.faq-text {
+  display: none;
+}
+
+.faq-toggle {
+  background-color: transparent;
+  border: none;
+
+  .fa-circle-xmark {
+    display: none;
+  }
+}
+
+.faq.active{
+  .faq-text {
+  display: block;
+  }
+}
+
