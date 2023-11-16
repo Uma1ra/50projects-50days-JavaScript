@@ -2,8 +2,8 @@
 
 $font: 'Domine', serif;
 $bg-color: #fde8d0;
-$primary: #efab93;
-$secondary: #96514d;
+$primary: #eebba8;
+$secondary: #a37575;
 
 * {
   margin: 0;
@@ -31,6 +31,7 @@ h1 {
   border-radius: 10px;
   padding: 30px;
   margin: 20px 0;
+  position: relative;
 }
 
 .faq-text {
@@ -40,6 +41,13 @@ h1 {
 .faq-toggle {
   background-color: transparent;
   border: none;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+  font-size: 1.5rem;
+  cursor: pointer;
 
   .fa-circle-xmark {
     display: none;
@@ -47,8 +55,24 @@ h1 {
 }
 
 .faq.active{
+
+  background-color: $primary;
+  border-color: $secondary;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+
   .faq-text {
-  display: block;
+    display: block;
+    margin-top: 20px;
   }
+
+  .fa-angle-down {
+    display: none;
+  }
+
+  .fa-circle-xmark {
+    display: block;
+    opacity: 0.6;
+  }
+
 }
 

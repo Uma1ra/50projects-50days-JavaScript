@@ -21,10 +21,11 @@ h1 {
 }
 
 .faq {
-  border: 1px solid #efab93;
+  border: 1px solid #eebba8;
   border-radius: 10px;
   padding: 30px;
   margin: 20px 0;
+  position: relative;
 }
 
 .faq-text {
@@ -34,11 +35,31 @@ h1 {
 .faq-toggle {
   background-color: transparent;
   border: none;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 .faq-toggle .fa-circle-xmark {
   display: none;
 }
 
+.faq.active {
+  background-color: #eebba8;
+  border-color: #a37575;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
 .faq.active .faq-text {
   display: block;
+  margin-top: 20px;
+}
+.faq.active .fa-angle-down {
+  display: none;
+}
+.faq.active .fa-circle-xmark {
+  display: block;
+  opacity: 0.6;
 }/*# sourceMappingURL=style.css.map */
