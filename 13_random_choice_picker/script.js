@@ -24,6 +24,18 @@ function createTags(input) {
   });
 }
 
+function randomSelect() {
+  const times = 30
+
+  const interval = setInterval(() => {
+    const randomTag = pickRandomTag()
+
+    if (randomTag !== undefined) {
+      highlightTag(randomTag)
+    }
+  }, 100);
+}
+
 function pickRandomTag() {
   const tags = document.querySelectorAll(".tags")
   return tags[Math.floor(Math.random() * tags.length)]
