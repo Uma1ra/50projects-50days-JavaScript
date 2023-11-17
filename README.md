@@ -218,3 +218,22 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   4. navigation panel or bar, with toggle function (in my case, I used to use boostrap for nav toggle but I think I can stop relying on it all the time)
 
 </details>
+
+<details>
+  <summary>Day13 (Random Choice Picker)</summary>
+  
+  **Things I Learned**
+  - By far! What I wanted to implement in my new app idea
+  - "keyup" was a new event I learned
+  - setTimeout was very useful in setting timers on actions
+  - creating an html element and using appendChild to put it within another element (second time doing it)
+  - [Math.random() * tags.length], random gives 0 and 1, so multiplying it with the array length(eg.8) will be 1 * 8 and give a random number between 1~8!
+  - intervals to highlight and unhighlight before the result has a nice aesthetic for randomness
+
+  **Original Ideas**
+  1. when you have a difficult time picking something
+  2. menu decider (protein, veg, carb, cooking method, useful because you can enter whatever's at home)
+  3. as a game(truth or dare picker)
+  4. intervals for drumroll effect for a result
+
+</details>
