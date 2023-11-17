@@ -32,6 +32,10 @@ function randomSelect() {
 
     if (randomTag !== undefined) {
       highlightTag(randomTag)
+
+      setTimeout(() => {
+        unhighlightTag(randomTag)
+      }, 100)
     }
   }, 100);
 }
