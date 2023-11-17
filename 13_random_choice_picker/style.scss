@@ -45,6 +45,8 @@ textarea {
   padding: 15px;
   caret-color: $secondary;
   color: $secondary;
+  margin-bottom: 20px;
+  font-size: 1rem;
 
   &::placeholder {
     color: $secondary;
@@ -56,3 +58,15 @@ textarea {
 
 }
 
+.tag {
+  display: inline-block;
+  background-color: $unhi-tag;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 0 5px 10px 0;
+  color: #d7e5ec;
+}
+
+.tag.hightlight {
+  background-color: $hi-tag;
+}

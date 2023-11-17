@@ -37,10 +37,25 @@ textarea {
   padding: 15px;
   caret-color: #ff9500;
   color: #ff9500;
+  margin-bottom: 20px;
+  font-size: 1rem;
 }
 textarea::placeholder {
   color: #ff9500;
 }
 textarea:focus {
   outline-color: #ff9500;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #9b7cb6;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 0 5px 10px 0;
+  color: #d7e5ec;
+}
+
+.tag.hightlight {
+  background-color: #e85298;
 }/*# sourceMappingURL=style.css.map */
