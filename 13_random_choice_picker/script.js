@@ -24,6 +24,11 @@ function createTags(input) {
   });
 }
 
+function pickRandomTag() {
+  const tags = document.querySelectorAll(".tags")
+  return tags[Math.floor(Math.random() * tags.length)]
+}
+
 function highlightTag(tag) {
   tag.classList.add("highlight")
 }
