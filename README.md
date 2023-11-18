@@ -237,3 +237,21 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   4. intervals for drumroll effect for a result
 
 </details>
+
+<details>
+  <summary>Day14 (Animated nav)</summary>
+  
+  **Things I Learned**
+  - toggle event for the second time
+  - eye-opening that so much movement could be achieved by css alone
+  - color choices are getting better
+  - font choices.. could do better
+  - transform:rotate(deg) tomake diagonal lines
+  - opacity to change visibility under specific conditions
+  - linear was a new asepect today, need to search and learn more
+
+  **Original Ideas**
+  1. revealing info
+  2. intervals to make things spin
+
+</details>
