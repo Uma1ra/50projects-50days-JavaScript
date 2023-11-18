@@ -34,21 +34,54 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+  font-size: 1.2rem;
   
 
   &:active {
     width: 350px;
 
     ul {
-      
+      width: 100%;
     }
   }
 
   ul {
     display: flex;
     list-style: none;
-    
+    // width: 0;
+
+    a {
+      margin: 0 10px;
+    }
+  }
+  
+  .icon {
+    background-color: $nav-color;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+
+    .line {
+      background-color: $bg-image-color;
+      height: 2px;
+      width: 20px;
+      position: absolute;
+      top: 10px;
+      left: 13px;
+    }
+
+    .line2 {
+      top: auto;
+      bottom: 10px;
+    }
+
+    &:focus {
+      outline: none;
+    }
   }
 }

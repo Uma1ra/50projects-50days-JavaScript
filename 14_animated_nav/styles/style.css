@@ -22,13 +22,44 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+  font-size: 1.2rem;
 }
 nav:active {
   width: 350px;
 }
+nav:active ul {
+  width: 100%;
+}
 nav ul {
   display: flex;
   list-style: none;
+}
+nav ul a {
+  margin: 0 10px;
+}
+nav .icon {
+  background-color: #513743;
+  position: relative;
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+}
+nav .icon .line {
+  background-color: #9e8b8e;
+  height: 2px;
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  left: 13px;
+}
+nav .icon .line2 {
+  top: auto;
+  bottom: 10px;
+}
+nav .icon:focus {
+  outline: none;
 }/*# sourceMappingURL=style.css.map */
