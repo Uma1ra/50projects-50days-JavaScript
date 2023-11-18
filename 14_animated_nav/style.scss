@@ -1,5 +1,54 @@
+@import "https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap";
+
+$font: 'Josefin Slab', serif;
+$bg-color: #e8d3d1;
+$bg-image-color: #9e8b8e;
+$nav-color: #513743;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-color;
+  background-image: linear-gradient(
+    to bottom,
+    $bg-color 0%,
+    $bg-color 50%,
+    $bg-image-color 50%,
+    $bg-image-color 100%
+  );
+  font-family: $font;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+nav {
+  background-color: $nav-color;
+  color: $bg-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+  
+
+  &:active {
+    width: 350px;
+
+    ul {
+      
+    }
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    
+  }
 }
