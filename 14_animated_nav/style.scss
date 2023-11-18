@@ -37,20 +37,19 @@ nav {
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
   font-size: 1.2rem;
-  
-
-  &:active {
-    width: 350px;
-
-    ul {
-      width: 100%;
-    }
-  }
 
   ul {
     display: flex;
     list-style: none;
-    // width: 0;
+    width: 0;
+    padding: 0;
+    transition: width 0.6s linear;
+
+    li {
+      transform: rotate(0deg);
+      opacity: 0;
+      transition: transform 0.6s linear, opacity 0,6s linear;
+    }
 
     a {
       margin: 0 10px;
@@ -72,7 +71,8 @@ nav {
       width: 20px;
       position: absolute;
       top: 10px;
-      left: 13px;
+      left: 5px;
+      transition: transform 0.6s linear;
     }
 
     .line2 {
@@ -83,5 +83,26 @@ nav {
     &:focus {
       outline: none;
     }
+  }
+}
+
+nav.active {
+  width: 380px;
+
+  ul {
+    width: 100%;
+
+    li {
+      opacity: 1;
+      transform: rotateY(360deg);
+    }
+  }
+
+  .icon .line1 {
+    transform: rotate(-765deg) translateY(5.5px);
+  }
+
+  .icon .line2 {
+    transform: rotate(765deg) translateY(-5.5px);
   }
 }
