@@ -13,4 +13,19 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px 50px;
+}
+.counter-container i {
+  margin-bottom: 30px;
+}
+.counter-container .counter {
+  font-size: 2rem;
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */
