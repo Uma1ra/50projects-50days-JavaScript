@@ -255,3 +255,20 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   2. intervals to make things spin
 
 </details>
+
+<details>
+  <summary>Day15 (Increment Counter)</summary>
+  
+  **Things I Learned**
+  - ASI(automatic semi-colon insertion) can make semi-colons optional but better practice is to add them yourself to avoid mishaps
+  - increment means to increase(didin't know what the counter was at first)
+  - aesthetically pleasing to see the movement in numbers
+  - data-target(data-*) is used to store info private to the page or app to be used within other functions as well by developers(eg. short text in place of a long link, a target value to reach)
+  - Math.ceil rounds off to greater than or equal to
+
+  **Original Ideas**
+  1. could be modified to alphabets
+  2. reveal answers(IQ test result, personality check app to reveal type)
+  3. graph numbers when first loaded or reloaded for different conditions
+
+</details>
