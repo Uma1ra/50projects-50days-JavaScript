@@ -17,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  font-family: $font;
 }
 
 .counter-container {
@@ -24,14 +25,20 @@ body {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin: 30px 50px;
+  margin: 30px 50px 60px;
 
   i {
-    margin-bottom: 30px;
+    font-size: 2rem;
   }
 
   .counter {
     font-size: 2rem;
     margin-top: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    flex-direction: column;
   }
 }
