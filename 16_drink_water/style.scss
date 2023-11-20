@@ -54,6 +54,11 @@ h3 {
   font-size: 14px;
 }
 
+.cup-small.full {
+  background-color: $water-color;
+  color: #fff;
+}
+
 .cups {
   display: flex;
   flex-wrap: wrap;

@@ -48,6 +48,11 @@ h3 {
   font-size: 14px;
 }
 
+.cup-small.full {
+  background-color: #a0d8ef;
+  color: #fff;
+}
+
 .cups {
   display: flex;
   flex-wrap: wrap;
