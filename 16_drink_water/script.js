@@ -41,7 +41,7 @@ function updateBigCup() {
 
   if(fullCups === totalCups) {
     remaining.style.visibility = "hidden";
-    remaining.style.visibility = 0;
+    remaining.style.height = 0;
   } else {
     remaining.style.visibility = "visible";
     litres.innerText = `${2 - (250 * fullCups / 1000)}L`;

@@ -46,6 +46,7 @@ h3 {
   justify-content: center;
   text-align: center;
   font-size: 14px;
+  transition: 0.3s ease;
 }
 
 .cup-small.full {
@@ -68,8 +69,25 @@ h3 {
   justify-content: center;
   text-align: center;
   flex: 1;
+  transition: 0.3s ease;
 }
 .remaining span {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.percentage {
+  background-color: #a0d8ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  height: 0;
+  font-size: 1.3rem;
+  transition: 0.3s ease;
+}
+
+.text {
+  margin-bottom: 10px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
