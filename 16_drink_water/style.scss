@@ -1,5 +1,58 @@
+@import "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap";
+
+$font: 'M PLUS Rounded 1c', sans-serif;
+$bg-color: #30b9f0;
+$water-color: #a0d8ef;
+$border-color: #4c6cb3;
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-color;
+  color: #fff;
+  font-family: $font;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  margin: 10px 0 0;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+.cup {
+  background-color: #fff;
+  color: $border-color;
+  border-radius: 5px 5px 35px 35px;
+  height: 330px;
+  width: 150px;
+  margin: 30px 0;
+  border: 4px solid $border-color;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.cup-small {
+  height: 95px;
+  width: 50px;
+  border-radius: 5px 5px 15px 15px;
+  margin: 5px;
+}
+
+.cups {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
 }
