@@ -1,9 +1,22 @@
-$bg-pri: #393f4c;
-$bg-sec: #4d4c61;
-$text-color: #eaedf7;
+
+
+$bg-pri: #1f3134;
+$bg-sec: #324143;
+$text-color: #f2ffe6;
+$rating-high: #38a1db;
+$rating-low: #f08f18;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-pri;
+  color: $text-color;
+}
+
+header {
+  background-color: $bg-sec;
 }

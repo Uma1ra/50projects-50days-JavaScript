@@ -2,4 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #1f3134;
+  color: #f2ffe6;
+}
+
+header {
+  background-color: #324143;
 }/*# sourceMappingURL=style.css.map */
