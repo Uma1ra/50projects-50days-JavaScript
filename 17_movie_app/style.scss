@@ -1,5 +1,6 @@
+@import "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap";
 
-
+$font: 'Josefin Sans', sans-serif;
 $bg-pri: #1f3134;
 $bg-sec: #324143;
 $text-color: #f2ffe6;
@@ -11,6 +12,7 @@ $rating-low: #8f2c2a;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $font;
 }
 
 body {
