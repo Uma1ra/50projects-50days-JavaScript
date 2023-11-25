@@ -20,6 +20,8 @@ function showMovies(movies) {
 
   movies.forEach((movie) => {
     const { title, poster_path, vote_average, overview } = movie
+    
+    const roundedAverageVote = Math.round(vote_average * 10) / 10
 
     const movieEl = document.createElement("div")
     movieEl.classList.add("movie")
@@ -29,7 +31,7 @@ function showMovies(movies) {
 
       <div class="movie-info">
         <h3>${title}</h3>
-        <span class="${getClassByRate(vote_average)}">${vote_average}</span>
+        <span class="${getClassByRate(vote_average)}">${roundedAverageVote}</span>
       </div>
 
       <div class="overview">
