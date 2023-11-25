@@ -5,8 +5,8 @@ $bg-pri: #00331b;
 $bg-sec: #173d2c;
 $text-color: #abe45a;
 $rating-high: #00d7fd;
-$rating-middle: #f08f18;
-$rating-low: #742221;
+$rating-middle: #e28513;
+$rating-low: #c22d2b;
 
 * {
   margin: 0;
@@ -72,10 +72,26 @@ main {
     justify-content: space-between;
     padding: 0.5rem 1rem 1rem;
     letter-spacing: 0.5px;
+    gap: 0.2rem;
+    font-size: 1.2rem;
+
+    span {
+      background-color: $bg-pri;
+      padding: 0.25rem 0.5rem;
+      font-weight: bold;
+      border-radius: 3px;
+    }
 
     span.blue {
       color: $rating-high;
+    }
 
+    span.orange {
+      color: $rating-middle;
+    }
+
+    span.red {
+      color: $rating-low;
     }
   }
 }
