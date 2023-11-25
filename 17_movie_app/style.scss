@@ -1,8 +1,9 @@
 @import "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap";
 
 $font: 'Josefin Sans', sans-serif;
-$bg-pri: #00331b;
+$bg-pri: #012e19;
 $bg-sec: #173d2c;
+$bg-overview: #dae8d1;
 $text-color: #abe45a;
 $rating-high: #00d7fd;
 $rating-middle: #e28513;
@@ -62,6 +63,12 @@ main {
   overflow: hidden;
   position: relative;
 
+  &:hover {
+    .overview {
+      transform: translateY(0);
+    }
+  }
+
   img {
     width: 100%;
   }
@@ -93,5 +100,18 @@ main {
     span.red {
       color: $rating-low;
     }
+  }
+
+  .overview {
+    background-color: $bg-overview;
+    color: $bg-sec;
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translateY(101%);
+    overflow-y: hidden;
+    transition: transform 0.3s ease-in;
   }
 }

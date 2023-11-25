@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #00331b;
+  background-color: #012e19;
   color: #abe45a;
 }
 
@@ -23,7 +23,7 @@ header {
   background-color: #173d2c;
   padding: 0.6rem 1rem;
   border-radius: 50px;
-  border: 2px solid #00331b;
+  border: 2px solid #012e19;
   font-size: 1rem;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -33,7 +33,7 @@ header {
 }
 .search:focus {
   outline: none;
-  background-color: #00331b;
+  background-color: #012e19;
   caret-color: #abe45a;
 }
 
@@ -51,6 +51,9 @@ main {
   overflow: hidden;
   position: relative;
 }
+.movie:hover .overview {
+  transform: translateY(0);
+}
 .movie img {
   width: 100%;
 }
@@ -64,7 +67,7 @@ main {
   font-size: 1.2rem;
 }
 .movie .movie-info span {
-  background-color: #00331b;
+  background-color: #012e19;
   padding: 0.25rem 0.5rem;
   font-weight: bold;
   border-radius: 3px;
@@ -77,4 +80,16 @@ main {
 }
 .movie .movie-info span.red {
   color: #c22d2b;
+}
+.movie .overview {
+  background-color: #dae8d1;
+  color: #173d2c;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateY(101%);
+  overflow-y: hidden;
+  transition: transform 0.3s ease-in;
 }/*# sourceMappingURL=style.css.map */
