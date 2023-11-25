@@ -289,3 +289,19 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   3. form-filling progress
 
 </details>
+
+<details>
+  <summary>Day17 (Movie App)</summary>
+  
+  **Things I Learned**
+  - I haven't been up to speed lately with styding Java alongside
+  - box-shadows (header, search, etc)
+  - understanding transform and translates better than before
+  - rounding off in js (being able to search and implement what I had in mind was a step forward)
+  - using API's in js is still a little hazy so will try and improve on that
+
+  **Original Ideas**
+  1. info on images, graphs, forms (directions on usage)
+  2. API could be used for personal or public use! (I wouldn't mind my own personal movie or recipe search)
+
+</details>
