@@ -305,3 +305,20 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   2. API could be used for personal or public use! (I wouldn't mind my own personal movie or recipe search)
 
 </details>
+
+<details>
+  <summary>Day18 (Background Slider)</summary>
+  
+  **Things I Learned**
+  - I've done this with a cdn before, but I see that it can be done easily without one too
+  - I'm getting the hang of writing the js code after understanding what the functions for
+  - image/file paths and what "./" or "../" mean(still get a little confused when errors pop up)
+  - I'm getting better at color contrasts
+
+
+  **Original Ideas**
+  1. It's easthetically pleasing to look at! Could be used for individual product images
+  2. Memories(has an emotional look to it)
+  3. I would definitely used this for multiple images without the bg-image as well
+
+</details>
