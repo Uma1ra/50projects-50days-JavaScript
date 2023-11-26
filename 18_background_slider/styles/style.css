@@ -13,6 +13,7 @@ body {
   overflow: hidden;
   background-position: center center;
   background-size: cover;
+  transition: 0.4s;
 }
 
 body::before {
@@ -31,26 +32,42 @@ body::before {
   height: 70vh;
   width: 70vw;
   position: relative;
+  overflow: hidden;
 }
-.slider-container .slide {
+
+.slide {
+  height: 100vh;
+  width: 100vw;
+  opacity: 0;
   position: absolute;
   top: -15vh;
   left: -15vw;
+  transition: 0.4s ease;
+  z-index: 1;
+  background-position: center center;
+  background-size: cover;
 }
-.slider-container .arrow {
+
+.arrow {
   background-color: transparent;
   color: #fff;
   padding: 20px;
-  font-size: 1.5rem;
+  font-size: 30px;
   border: 2px solid orange;
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
 }
-.slider-container .left-arrow {
+
+.left-arrow {
   left: calc(15vw - 65px);
 }
-.slider-container .right-arrow {
+
+.right-arrow {
   right: calc(15vw - 65px);
+}
+
+.slide.active {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */
