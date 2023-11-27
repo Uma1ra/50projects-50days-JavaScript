@@ -3,4 +3,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  transition: all 0.5s ease-in;
+  background-color: #eae1cf;
+  color: #24140e;
+}
+html.dark {
+  background-color: #24140e;
+  color: #eae1cf;
 }/*# sourceMappingURL=style.css.map */
