@@ -47,4 +47,27 @@ body {
   padding: 0.7rem 1rem;
   border-radius: 50px;
   font-weight: bold;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+// .clock-container {
+
+// }
+
+.clock {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.needle {
+  background-color: var(--secondary-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 65px;
+  width: 3px;
 }
