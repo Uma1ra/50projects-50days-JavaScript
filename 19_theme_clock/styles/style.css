@@ -13,4 +13,13 @@ html {
 html.dark {
   background-color: #24140e;
   color: #eae1cf;
+}
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */

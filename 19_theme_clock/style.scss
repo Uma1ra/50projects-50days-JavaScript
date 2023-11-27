@@ -21,3 +21,12 @@ html {
     color: $light;
   }
 }
+
+body {
+  font-family: $font;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
