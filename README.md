@@ -322,3 +322,24 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   3. I would definitely used this for multiple images without the bg-image as well
 
 </details>
+
+<details>
+  <summary>Day19 (Theme Clock)</summary>
+  
+  **Things I Learned**
+  - mixins, stil need to explore ideal usage but very useful!
+  - theme change can be achieved quite easily using js and css styling
+  - would like to experiment more on theme button design
+  - root and scss variables don't mix well together(there did seem to be a way though, need to read further)
+  - originality in design make me feel loads better than when I started
+  - UI/UX theory needs to be learned but maybe with layouts in remakes
+  - loginc for a 12-hour format clock
+  - calculations will either be copied from generous sources or generated via AI(I suck at math, no joke)
+
+  **Original Ideas**
+  1. blog site for easthetic purposes(could be useful when uploading or setting timers as well)
+  2. theme color's definitely something I would incorporate on all projects as defaults
+  3. would be awesome to make different thems(pastels, mocha, vivid, dark, light, hacker, etc)
+  4. the needles could probably be paired with the "05 Blurry Loading" to create a spinning needle loader?
+
+</details>
