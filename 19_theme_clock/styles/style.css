@@ -103,4 +103,14 @@ body {
   height: 5px;
   width: 5px;
   border-radius: 50%;
+}
+
+.time {
+  font-size: 4rem;
+  margin-top: 25px 0 20px;
+}
+
+.date {
+  font-size: 1.5rem;
+  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */
