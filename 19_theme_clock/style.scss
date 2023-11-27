@@ -3,6 +3,16 @@
 $font: 'Chakra Petch', sans-serif;
 $sec-needle: #da536e;
 
+@mixin center-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+@mixin center-translate {
+  transform: translate(-50%, -50%);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -53,9 +63,12 @@ body {
   }
 }
 
-// .clock-container {
-
-// }
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .clock {
   position: relative;
@@ -64,10 +77,34 @@ body {
 }
 
 .needle {
+  @include center-position();
   background-color: var(--secondary-color);
-  position: absolute;
-  top: 50%;
-  left: 50%;
   height: 65px;
   width: 3px;
+  transform-origin: bottom center;
+  transition: all 0.5s ease-in;
+
+  &.hour {
+    transform: translate(-50%, -100%) rotate(0deg);
+  }
+
+  &.minute {
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 100px;
+  }
+
+  &.second {
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 100px;
+    background-color: $sec-needle;
+  }
+}
+
+.center-point {
+  @include center-position;
+  @include center-translate;
+  background-color: var(--secondary-color);
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
 }

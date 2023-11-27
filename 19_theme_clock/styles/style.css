@@ -46,6 +46,13 @@ body {
   outline: none;
 }
 
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .clock {
   position: relative;
   height: 200px;
@@ -53,10 +60,35 @@ body {
 }
 
 .needle {
-  background-color: var(--secondary-color);
   position: absolute;
   top: 50%;
   left: 50%;
+  background-color: var(--secondary-color);
   height: 65px;
   width: 3px;
+  transform-origin: bottom center;
+  transition: all 0.5s ease-in;
+}
+.needle.hour {
+  transform: translate(-50%, -100%) rotate(0deg);
+}
+.needle.minute {
+  transform: translate(-50%, -100%) rotate(0deg);
+  height: 100px;
+}
+.needle.second {
+  transform: translate(-50%, -100%) rotate(0deg);
+  height: 100px;
+  background-color: #da536e;
+}
+
+.center-point {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--secondary-color);
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
