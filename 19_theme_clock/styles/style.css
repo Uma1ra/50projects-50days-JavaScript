@@ -107,10 +107,19 @@ body {
 
 .time {
   font-size: 4rem;
-  margin-top: 25px 0 20px;
 }
 
 .date {
   font-size: 1.5rem;
   opacity: 0.5;
+}
+.date .circle {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 5px;
+  transition: all 0.5s ease-in;
 }/*# sourceMappingURL=style.css.map */
