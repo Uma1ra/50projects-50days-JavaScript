@@ -1,9 +1,66 @@
 @import "https://fonts.googleapis.com/css2?family=Raleway&display=swap";
 
 $font: 'Raleway', sans-serif;
+$bg-color: #fef9fb;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-color;
+  
+}
+
+button {
+  border: none;
+  height: 100px;
+  width: 100px;
+}
+
+.one {
+  background-color: #af0082;
+  border-radius: 44% 56% 59% 41% / 43% 37% 63% 57%;
+}
+
+.two {
+  background-color: #da81b2;
+  border-radius: 32% 68% 37% 63% / 59% 37% 63% 41%;
+}
+
+.three {
+  background-color: #d9aacd;
+  border-radius: 46% 54% 64% 36% / 41% 37% 63% 59%;
+}
+
+.four {
+  background-color: #841a75;
+  border-radius: 46% 54% 44% 56% / 52% 44% 56% 48%;
+}
+
+.five {
+  background-color: #9f166a;
+  border-radius: 29% 71% 56% 44% / 52% 37% 63% 48%;
+}
+
+.six {
+  background-color: #d04f97;
+  border-radius: 52% 48% 56% 44% / 53% 37% 63% 47%;
+}
+
+.seven {
+  background-color: #c70067;
+  border-radius: 52% 48% 43% 57% / 39% 47% 53% 61%;
+}
+
+.eight {
+  background-color: #d83473;
+  border-radius: 52% 48% 43% 57% / 56% 47% 53% 44%;
+}
+
+.nine {
+  background-color: #dc6b9a;
+  border-radius: 34% 66% 43% 57% / 42% 38% 62% 58%;
 }
