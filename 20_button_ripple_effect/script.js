@@ -16,6 +16,8 @@ function handleButtonClick(e) {
   circle.style.left = xInside + "px";
 
   this.appendChild(circle);
+
+  setTimeout(() => circle.remove(), 500);
 }
 
 buttons.forEach(button => {
