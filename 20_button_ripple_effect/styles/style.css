@@ -3,59 +3,85 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
 body {
   background-color: #fef9fb;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
 }
 
 button {
   border: none;
   height: 100px;
   width: 100px;
+  color: #fef9fb;
+  position: absolute;
+  margin: 20px;
 }
 
 .one {
   background-color: #af0082;
   border-radius: 44% 56% 59% 41%/43% 37% 63% 57%;
+  top: 15vh;
+  left: 10vw;
 }
 
 .two {
-  background-color: #da81b2;
+  background-color: #9f166a;
   border-radius: 32% 68% 37% 63%/59% 37% 63% 41%;
+  top: 35vh;
+  left: 30vw;
 }
 
 .three {
   background-color: #d9aacd;
   border-radius: 46% 54% 64% 36%/41% 37% 63% 59%;
+  top: 5vh;
+  left: 50vw;
 }
 
 .four {
   background-color: #841a75;
   border-radius: 46% 54% 44% 56%/52% 44% 56% 48%;
+  top: 20vh;
+  left: 80vw;
 }
 
 .five {
-  background-color: #9f166a;
+  background-color: #da81b2;
   border-radius: 29% 71% 56% 44%/52% 37% 63% 48%;
+  top: 45vh;
+  left: 5vw;
 }
 
 .six {
-  background-color: #d04f97;
+  background-color: #d83473;
   border-radius: 52% 48% 56% 44%/53% 37% 63% 47%;
+  top: 40vh;
+  left: 55vw;
 }
 
 .seven {
   background-color: #c70067;
   border-radius: 52% 48% 43% 57%/39% 47% 53% 61%;
+  top: 75vh;
+  left: 20vw;
 }
 
 .eight {
-  background-color: #d83473;
+  background-color: #dc6b9a;
   border-radius: 52% 48% 43% 57%/56% 47% 53% 44%;
+  top: 65vh;
+  left: 50vw;
 }
 
 .nine {
-  background-color: #dc6b9a;
+  background-color: #d04f97;
   border-radius: 34% 66% 43% 57%/42% 38% 62% 58%;
+  top: 60vh;
+  left: 75vw;
 }/*# sourceMappingURL=style.css.map */
