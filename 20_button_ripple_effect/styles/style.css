@@ -10,8 +10,6 @@ body {
   background-color: #fef9fb;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
-  position: relative;
 }
 
 button {
@@ -20,27 +18,27 @@ button {
   width: 100px;
   color: #fef9fb;
   position: absolute;
-  margin: 20px;
+  margin: 10px;
 }
 
 .one {
   background-color: #af0082;
   border-radius: 44% 56% 59% 41%/43% 37% 63% 57%;
-  top: 15vh;
-  left: 10vw;
+  top: 10vh;
+  left: 20vw;
 }
 
 .two {
   background-color: #9f166a;
   border-radius: 32% 68% 37% 63%/59% 37% 63% 41%;
-  top: 35vh;
-  left: 30vw;
+  top: 30vh;
+  left: 35vw;
 }
 
 .three {
   background-color: #d9aacd;
   border-radius: 46% 54% 64% 36%/41% 37% 63% 59%;
-  top: 5vh;
+  top: 10vh;
   left: 50vw;
 }
 
@@ -48,14 +46,14 @@ button {
   background-color: #841a75;
   border-radius: 46% 54% 44% 56%/52% 44% 56% 48%;
   top: 20vh;
-  left: 80vw;
+  left: 70vw;
 }
 
 .five {
   background-color: #da81b2;
   border-radius: 29% 71% 56% 44%/52% 37% 63% 48%;
-  top: 45vh;
-  left: 5vw;
+  top: 35vh;
+  left: 10vw;
 }
 
 .six {
@@ -68,20 +66,27 @@ button {
 .seven {
   background-color: #c70067;
   border-radius: 52% 48% 43% 57%/39% 47% 53% 61%;
-  top: 75vh;
-  left: 20vw;
+  top: 65vh;
+  left: 15vw;
 }
 
 .eight {
   background-color: #dc6b9a;
   border-radius: 52% 48% 43% 57%/56% 47% 53% 44%;
-  top: 65vh;
-  left: 50vw;
+  top: 55vh;
+  left: 40vw;
 }
 
 .nine {
   background-color: #d04f97;
   border-radius: 34% 66% 43% 57%/42% 38% 62% 58%;
   top: 60vh;
-  left: 75vw;
+  left: 65vw;
+}
+
+@media (max-width: 425.98px) {
+  button {
+    height: 70px;
+    width: 70px;
+  }
 }/*# sourceMappingURL=style.css.map */
