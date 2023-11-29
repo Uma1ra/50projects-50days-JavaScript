@@ -14,6 +14,7 @@ body {
   background-color: $bg-color;
   height: 100vh;
   width: 100vw;
+  position: relative;
 }
 
 button {
@@ -21,8 +22,31 @@ button {
   height: 100px;
   width: 100px;
   color: $bg-color;
+  position: relative;
   position: absolute;
+  overflow: hidden;
   margin: 10px;
+
+  &:focus {
+    outline: none;
+  }
+
+  .circle {
+    background-color: #fff;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transform: translate(-50% -50%) scale(0);
+    animation: scale 0.5s ease-out;
+
+    @keyframes scale {
+      to {
+        transform: translate(-50% -50%) scale(3);
+        opacity: 0;
+      }
+    }
+  }
 }
 
 .one {

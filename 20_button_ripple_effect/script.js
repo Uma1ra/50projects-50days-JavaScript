@@ -17,7 +17,7 @@ function handleButtonClick(e) {
 
   this.appendChild(circle);
 
-  setTimeout(() => circle.remove(), 500);
+  // setTimeout(() => circle.remove(), 500);
 }
 
 buttons.forEach(button => {
