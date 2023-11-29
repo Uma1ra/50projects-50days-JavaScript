@@ -11,6 +11,6 @@ function handleButtonClick(e) {
   const yInside = y - buttonTop;
 }
 
-buutons.forEach(button => {
+buttons.forEach(button => {
   button.addEventListener("click", handleButtonClick);
 });
