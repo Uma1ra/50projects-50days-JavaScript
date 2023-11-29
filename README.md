@@ -343,3 +343,21 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   4. the needles could probably be paired with the "05 Blurry Loading" to create a spinning needle loader?
 
 </details>
+
+<details>
+  <summary>Day20 (Button Ripple Effect)</summary>
+  
+  **Things I Learned**
+  - I've added multiple buttons 
+  - position relative and absolute can be used within the same class because they're relative to their parent
+  - took me a while, but managed to position my buttons seemingly in a random scatter using absolute position with vh and vw
+  - custom border radius in % can't be used on an element with height and width in % as well(I used px for sizing and @media to adjust for size)
+  - getting a better sense of design and ideas
+  - in js, I've written the event handler function outside of the function as opposed to what I was referencing(for readability and better practice in js)
+  - determining the position of an element with simple logic in js using x, y, targets and offset
+
+  **Original Ideas**
+  1. I'd like to try using different shapes and colors to contrast or complement
+  2. other events such as keyUp could be used as a rippling typing experience(a little like RGB lighting on a gaming keyboard)
+
+</details>
