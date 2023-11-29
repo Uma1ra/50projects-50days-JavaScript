@@ -38,15 +38,15 @@ button .circle {
   width: 200px;
   border-radius: 50%;
   transform: translate(-50%, -50%) scale(0);
-  animation: scale 0.5s ease-out;
+  animation: scale 1.5s ease-out;
 }
+
 @keyframes scale {
   to {
     transform: translate(-50%, -50%) scale(4);
     opacity: 0;
   }
 }
-
 .one {
   background-color: #af0082;
   border-radius: 44% 56% 59% 41%/43% 37% 63% 57%;
