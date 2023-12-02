@@ -29,6 +29,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.empty .hold {
+  border: 4px ridge #1f1f1f;
+}
 
 @media (max-width: 768.98px) {
   body {
