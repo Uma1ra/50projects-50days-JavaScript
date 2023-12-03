@@ -4,12 +4,19 @@ const empties = document.querySelectorAll(".empty");
 fill.addEventListener("dragstart", dragStart);
 fill.addEventListener("dragend", dragEnd);
 
-empties.forEach(empty => {
-  empty.addEventListener("dragover", dragOver);
-  empty.addEventListener("dragenter", dragEnter);
-  empty.addEventListener("dragleave", dragLeave);
-  empty.addEventListener("drop", drop);
-});
+// empties.forEach(empty => {
+//   empty.addEventListener("dragover", dragOver);
+//   empty.addEventListener("dragenter", dragEnter);
+//   empty.addEventListener("dragleave", dragLeave);
+//   empty.addEventListener("drop", dragDrop);
+// });
+
+for(const empty of empties) {
+  empty.addEventListener('dragover', dragOver)
+  empty.addEventListener('dragenter', dragEnter)
+  empty.addEventListener('dragleave', dragLeave)
+  empty.addEventListener('drop', dragDrop)
+}
 
 function dragStart() {
   this.className += " hold";
@@ -24,7 +31,7 @@ function dragOver(e) {
   e.preventDefault();
 };
 
-function dragEnter() {
+function dragEnter(e) {
   e.preventDefault();
   this.className += " hovered";
 };
@@ -33,7 +40,7 @@ function dragLeave() {
   this.className = "empty";
 };
 
-function drop() {
+function dragDrop() {
   this.className = "empty";
   this.append(fill);
 };

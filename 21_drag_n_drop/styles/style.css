@@ -34,7 +34,8 @@ body {
 .empty .hold {
   border: 4px ridge #1f1f1f;
 }
-.empty .hovered {
+
+.hovered {
   border-color: #fff;
   border: 3px dashed #000;
   background-color: #7daabb;

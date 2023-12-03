@@ -37,12 +37,12 @@ body {
   .hold {
     border: 4px ridge #1f1f1f;
   }
+}
 
-  .hovered {
-    border-color: #fff;
-    border: 3px dashed #000;
-    background-color: $bg-color;
-  }
+.hovered {
+  border-color: #fff;
+  border: 3px dashed #000;
+  background-color: $bg-color;
 }
 
 @media (max-width: 768.98px) {
