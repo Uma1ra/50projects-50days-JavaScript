@@ -361,3 +361,19 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   2. other events such as keyUp could be used as a rippling typing experience(a little like RGB lighting on a gaming keyboard)
 
 </details>
+
+<details>
+  <summary>Day21 (Drag N Drop)</summary>
+  
+  **Things I Learned**
+  - setting a background image using unsplash link
+  - making a clean simple look for dropping boundaries
+  - setting draggable in html(first time)
+  - dragging and dropping by setting classnames and background images in css accordingly
+  - thought of alternative methods that could be used as well
+
+  **Original Ideas**
+  1. interactive gamefied app
+  2. jigsaw puzzle app
+
+</details>
