@@ -28,3 +28,7 @@ function dragEnter() {
   e.preventDefault();
   this.className += " hovered";
 };
+
+function dragLeave() {
+  this.className = "empty"
+};
