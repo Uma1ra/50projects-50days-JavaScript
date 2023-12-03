@@ -30,5 +30,10 @@ function dragEnter() {
 };
 
 function dragLeave() {
-  this.className = "empty"
+  this.className = "empty";
+};
+
+function drop() {
+  this.className = "empty";
+  this.append(fill);
 };
