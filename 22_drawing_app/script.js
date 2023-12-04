@@ -29,7 +29,12 @@ canvas.addEventListener("mouseup", (e) => {
   y = undefined;
 });
 
+canvas.addEventListener("mouseenter", () => {
+  canvas.classList.add("within-canvas");
+});
+
 canvas.addEventListener("mouseleave", () => {
+  canvas.classList.remove("within-canvas");
   isPressed = false;
 });
 
