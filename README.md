@@ -394,6 +394,7 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   - updating the visible part of the size along with the actual value
   - different methods used for the context
   - creating new functions for what I thought would be more functional, such as stop drawing when out of range
+  - pretty proud to be customizing as I go for better functionality and design
 
   **Original Ideas**
   1. picture games("e-shiritori", something like pictSense?)
