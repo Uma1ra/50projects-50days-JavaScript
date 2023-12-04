@@ -66,3 +66,27 @@ function drawLine(initX, initY, newX, newY) {
   ctx.lineWidth = size * 2;
   ctx.stroke();
 };
+
+function updateSizeOnScreen() {
+  sizeEl.innerText = size
+};
+
+increaseBtn.addEventListener("click", () => {
+  size += 5;
+
+  if(size > 50) {
+    size = 50;
+  }
+
+  updateSizeOnScreen();
+});
+
+decreaseBtn.addEventListener("click", () => {
+  size -= 5;
+
+  if(size < 5) {
+    size = 5;
+  }
+
+  updateSizeOnScreen();
+});
