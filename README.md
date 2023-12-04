@@ -377,3 +377,27 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   2. jigsaw puzzle app
 
 </details>
+
+<details>
+  <summary>Day22 (Drawing App)</summary>
+  
+  **Things I Learned**
+  - canvas tag is used with javascript for drawing
+  - the height and width for the canvas are assigned directly in the HTML markup to define the initial resolution
+  - the resolution is important for accuracy when drawing
+  - making custom buttons, box-shadow and inline-flex
+  - customizing border and radius to join seamlessly
+  - using icons instead of text for better aesthetics
+  - various mouse events
+  - custom cursor design to be detected by js event
+  - different methods to determine coordinates and using then to draw seamlessly
+  - updating the visible part of the size along with the actual value
+  - different methods used for the context
+  - creating new functions for what I thought would be more functional, such as stop drawing when out of range
+
+  **Original Ideas**
+  1. picture games("e-shiritori", something like pictSense?)
+  2. saving the images would make it something like the app "Paint"?
+  3. could be a writing memo pad and maybe collab with AI to detext and convert to text
+
+</details>
