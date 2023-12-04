@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #e4d2d8;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -13,5 +14,6 @@ body {
 }
 
 canvas {
-  border: 3px solid #000;
+  border: 8px ridge;
+  background-color: #fff;
 }/*# sourceMappingURL=style.css.map */
