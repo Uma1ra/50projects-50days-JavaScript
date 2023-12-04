@@ -9,8 +9,15 @@ const ctx = canvas.getContext("2d");
 
 let size = 10;
 let isPressed = false;
-let x
-let y
+let x;
+let y;
 
 colorEl.value = "black";
-let color = colorEl.value
+let color = colorEl.value;
+
+canvas.addEventListener("mousedown", (e) => {
+  isPressed = true;
+
+  x = e.offsetX;
+  y = e.offsetY;
+});
