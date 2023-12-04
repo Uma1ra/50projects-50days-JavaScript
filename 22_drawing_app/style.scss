@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+$font: 'Monomaniac One', sans-serif;
 $bg-color: #e4d2d8;
 $border-color: #e2b0c1;
 
@@ -5,6 +8,7 @@ $border-color: #e2b0c1;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $font;
 }
 
 body {
@@ -49,6 +53,7 @@ canvas {
     &:last-child {
       margin-left: auto;
       width: auto;
+      display: block;
     }
   }
 }
