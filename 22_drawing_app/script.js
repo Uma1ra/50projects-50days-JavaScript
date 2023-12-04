@@ -12,7 +12,7 @@ let isPressed = false;
 let x;
 let y;
 
-colorEl.value = "black";
+colorEl.value = "#000000";
 let color = colorEl.value;
 
 canvas.addEventListener("mousedown", (e) => {
