@@ -51,9 +51,11 @@ canvas.addEventListener("mousemove", (e) => {
   }
 });
 
-function drawCirclex(x, y) {
+function drawCircle(x, y) {
   ctx.beginPath();
   ctx.arc(x, y, size, 0, math.PI * 2);
   ctx.fillStyle = color;
   ctx.fill();
 };
+
+function drawLine
