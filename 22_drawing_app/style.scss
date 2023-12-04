@@ -26,6 +26,10 @@ canvas {
   border-radius: 5px 5px 0 0;
 }
 
+.within-canvas {
+  cursor: crosshair;
+}
+
 .toolbox {
   width: 916px;
   background-color: $border-color;
