@@ -58,4 +58,11 @@ function drawCircle(x, y) {
   ctx.fill();
 };
 
-function drawLine
+function drawLine(initX, initY, newX, newY) {
+  ctx.beginPath();
+  ctx.moveTo(initX, initY);
+  ctx.lineTo(newX, newY);
+  ctx.strokeStyle = color;
+  ctx.lineWidth = size * 2;
+  ctx.stroke();
+};
