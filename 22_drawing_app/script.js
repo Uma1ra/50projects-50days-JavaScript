@@ -29,6 +29,10 @@ canvas.addEventListener("mouseup", (e) => {
   y = undefined;
 });
 
+canvas.addEventListener("mouseleave", () => {
+  isPressed = false;
+});
+
 canvas.addEventListener("mousemove", (e) => {
   if(isPressed) {
     const newX = e.offsetX;
@@ -41,3 +45,10 @@ canvas.addEventListener("mousemove", (e) => {
     y = newY;
   }
 });
+
+function drawCirclex(x, y) {
+  ctx.beginPath();
+  ctx.arc(x, y, size, 0, math.PI * 2);
+  ctx.fillStyle = color;
+  ctx.fill();
+};
