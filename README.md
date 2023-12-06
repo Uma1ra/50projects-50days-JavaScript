@@ -402,3 +402,17 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   3. could be a writing memo pad and maybe collab with AI to detext and convert to text
 
 </details>
+
+<details>
+  <summary>Day23 (Kinetic Loader)</summary>
+  
+  **Things I Learned**
+  - triangle using the border in css
+  - spinning effect created by adjusting rotating various degrees
+
+  **Original Ideas**
+  1. I'm going to try this with multiple shapes(maybe circles to overlap and look like flowers)
+  2. loading effect
+  3. effect to create movement on the page(slower and inconspicuous could work as a background)
+
+</details>
