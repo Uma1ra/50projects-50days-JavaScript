@@ -31,12 +31,44 @@ body {
     height: 0;
     border: 50px solid transparent;
     border-bottom-color: $shape-color1;
-    opacity: 0.8;
+    animation: rotateA 2s linear infinite 0.5s;
   }
 
   &::before {
     border-bottom-color: $shape-color2;
     transform: rotate(90deg);
-    animation: rotateB 2s linear infinite 0.5s;
+    animation: rotateB 2s linear infinite;
+  }
+}
+
+@keyframes rotateA {
+  0%,
+  25% {
+    transform: rotate(0deg);
+  }
+
+  50%,
+  75% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateB {
+  0%,
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50%,
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(450deg);
   }
 }
