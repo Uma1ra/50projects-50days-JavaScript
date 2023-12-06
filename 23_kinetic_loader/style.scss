@@ -7,3 +7,36 @@ $shape-color2: #f8b500;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: $bg-color;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kinetic {
+  position: relative;
+  height: 100px;
+  width: 100px;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: $shape-color1;
+    opacity: 0.8;
+  }
+
+  &::before {
+    border-bottom-color: $shape-color2;
+    transform: rotate(90deg);
+    animation: rotateB 2s linear infinite 0.5s;
+  }
+}

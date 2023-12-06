@@ -2,4 +2,34 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #fde8d0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kinetic {
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+.kinetic::before, .kinetic::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: #ffdb4f;
+  opacity: 0.8;
+}
+.kinetic::before {
+  border-bottom-color: #f8b500;
+  transform: rotate(90deg);
+  animation: rotateB 2s linear infinite 0.5s;
 }/*# sourceMappingURL=style.css.map */
