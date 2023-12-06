@@ -1,8 +1,10 @@
 $bg-color: #640125;
 $color1: #e198b4;
-$color2: #f4b3c2;
+$color2: #e96281;
 $color3: #f6bfbc;
-$color4: #c97586;
+$color4: #c39fd6;
+$color5: #d7cf3a;
+$color6: #ee836f;
 
 @mixin shapes {
   content: "";
@@ -13,7 +15,7 @@ $color4: #c97586;
   width: 100px;
   border-radius: 50%;
   opacity: 0.7;
-  transform-origin: bottom-center;
+  transform-origin: center bottom;
 }
 
 * {
@@ -34,32 +36,106 @@ body {
   position: relative;
   height: 100px;
   width: 100px;
+  transform: translateY(-50%)
+}
+
+.shape {
+  @include shapes();
 }
 
 .one {
-  &::before,
-  &::after {
-    @include shapes();
-    background-color: $color1;
-    animation: rotateA 5s linear infinite 0.5s;
-  }
-
-  &::after {
-    background-color: $color2;
-    animation: rotateB 5s linear infinite;
-  }
+  background-color: $color1;
+  // transform: rotate(-60deg);
+  animation: rotateA 5s linear infinite 0.5s;
+    
 }
 
 .two {
-  &::before,
-  &::after {
-    @include shapes();
-    background-color: $color3;
-    animation: rotateC 5s linear infinite 0.5s;
+  background-color: $color2;
+  // transform: rotate(60deg);
+  animation: rotateB 5s linear infinite 0.5s;
+}
+
+.three {
+  background-color: $color3;
+  // transform: rotate(120deg);
+  animation: rotateC 5s linear infinite 0.5s;
+}
+
+.four {
+  background-color: $color5;
+  // transform: rotate(-120deg);
+  animation: rotateD 5s linear infinite 0.5s;
+}
+
+.five {
+  background-color: $color6;
+  // transform: rotate(180deg);
+  animation: rotateE 5s linear infinite 0.5s;
+}
+
+.six {
+  background-color: $color4;
+  // transform: rotate(0deg);
+  animation: rotateF 5s linear infinite 0.5s;
+}
+
+@keyframes rotateA {
+  0% {
+    transform: rotate(-120deg);
   }
 
-  &::after {
-    background-color: $color4;
-    animation: rotateD 5s linear infinite;
+  100% {
+    transform: rotate(240deg);
+  }
+}
+
+@keyframes rotateB {
+  0% {
+    transform: rotate(-60deg);
+  }
+
+  100% {
+    transform: rotate(300deg);
+  }
+}
+
+@keyframes rotateC {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateD {
+  0% {
+    transform: rotate(60deg);
+  }
+
+  100% {
+    transform: rotate(420deg);
+  }
+}
+
+@keyframes rotateE {
+  0% {
+    transform: rotate(120deg);
+  }
+
+  100% {
+    transform: rotate(480deg);
+  }
+}
+
+@keyframes rotateF {
+  0% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(540deg);
   }
 }
