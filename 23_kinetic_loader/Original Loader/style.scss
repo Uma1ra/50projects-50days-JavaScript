@@ -1,5 +1,26 @@
+$bg-color: #640125;
+$color1: #e198b4;
+$color2: #f4b3c2;
+$color3: #f6bfbc;
+$color4: #c97586;
+
+@mixin shapes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100px;
+  border: radius 50%;
+  opacity: 0.7;
+  transform-origin: bottom-center;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  
 }
