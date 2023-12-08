@@ -1,11 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+$font: 'Cormorant Garamond', serif;
+$bg-color: #dcd6d9;
+$card-color: #9790a4;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
+body {
+  background-color: $bg-color;
+  font-family: $font;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  img {
+    max-width: 100%;
+  }
 }
 
 .card-header {

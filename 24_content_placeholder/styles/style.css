@@ -1,10 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-img {
+body {
+  background-color: #dcd6d9;
+  font-family: "Cormorant Garamond", serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+body img {
   max-width: 100%;
 }
 
