@@ -5,8 +5,8 @@ const profileImg = document.getElementById("profile_img");
 const authorName = document.getElementById("author-name");
 const date = document.getElementById("date");
 
-const animated_bgs = document.querySelectorAll(".animated-bg");
-const animated_bg_texts = document.querySelectorAll(".animated-bg-text");
+const animatedBgs = document.querySelectorAll(".animated-bg");
+const animatedBgTexts = document.querySelectorAll(".animated-bg-text");
 
 // setTimeout(getData, 2500);
 getData();
