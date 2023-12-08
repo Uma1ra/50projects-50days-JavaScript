@@ -8,8 +8,7 @@ const date = document.getElementById("date");
 const animatedBgs = document.querySelectorAll(".animated-bg");
 const animatedBgTexts = document.querySelectorAll(".animated-bg-text");
 
-// setTimeout(getData, 2500);
-getData();
+setTimeout(getData, 2500);
 
 function getData() {
   header.innerHTML = '<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" alt="" />';
@@ -18,4 +17,7 @@ function getData() {
   profileImg.innerHTML = '<img src="https://randomuser.me/api/portraits/men/78.jpg" alt="" />';
   authorName.innerHTML = "John Doe";
   date.innerHTML = "Dec 09, 2023";
+
+  animatedBgs.forEach((bg) => bg.classList.remove("animated-bg"));
+  animatedBgTexts.forEach((bg) => bg.classList.remove("animated-bg-text"));
 };
