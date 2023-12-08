@@ -416,3 +416,19 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   3. effect to create movement on the page(slower and inconspicuous could work as a background)
 
 </details>
+
+<details>
+  <summary>Day24 (Content Placeholder)</summary>
+  
+  **Things I Learned**
+  - setTimeout can be used for other than APIs and await for async
+  - HTML character entities(&nbsp; and others)
+  - adding movement to linear gradient bgs could be done with just css but timeout gives loading effect
+  - rounded profile images
+  - rounded text bg
+
+  **Original Ideas**
+  1. bg with movement for any content, on forms, images that take longer to load?
+  2. just any header or content to give it a mobile bg as a default
+
+</details>
