@@ -432,3 +432,18 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   2. just any header or content to give it a mobile bg as a default
 
 </details>
+
+<details>
+  <summary>Day25 (Sticky Navigation)</summary>
+  
+  **Things I Learned**
+  - copying a website layout was somthing I hadn't done in a while
+  - use of containers to flex and position elements just so
+  - color scheme is getting better and better
+  - scroll event was a first, pretty easy to understand
+
+  **Original Ideas**
+  1. scroll and ease-in-out to time content display
+  2. could do this for a footer as well(display little when reading the content, and reveal the full footer when hovering or at the page end) 
+
+</details>
