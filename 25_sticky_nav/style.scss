@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+$font: 'Raleway', sans-serif;
+$nav-bg-color: #524748;
+$bg-color: #d3cbc6;
+$text-color: #432f2f;
+$nav-text-color: #fff6f0;
+$nav-text-active: #752100;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: $font;
+  color: $text-color;
+  padding-bottom: 50px;
 }
