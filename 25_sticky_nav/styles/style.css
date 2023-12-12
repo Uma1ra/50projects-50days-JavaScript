@@ -43,7 +43,8 @@ body {
   transition: all 0.3s ease-in-out;
 }
 .nav a.current, .nav a:hover {
-  color: #e54100;
+  color: #d73d00;
+  font-weight: bold;
 }
 
 .hero {
@@ -56,7 +57,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   position: relative;
+  margin-bottom: 20px;
   z-index: -2;
 }
 .hero::before {
@@ -68,4 +71,20 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero p {
+  font-size: 1.3rem;
+  margin: 20px 0;
+  letter-spacing: 1px;
+}
+
+.content h2 {
+  margin: 20px 0 10px;
+}
+.content p {
+  line-height: 30px;
+  letter-spacing: 0.5px;
 }/*# sourceMappingURL=style.css.map */

@@ -5,7 +5,7 @@ $nav-bg-color: #524748;
 $bg-color: #d3cbc6;
 $text-color: #432f2f;
 $nav-text-color: #fff6f0;
-$nav-text-active: #e54100;
+$nav-text-active: #d73d00;
 
 * {
   margin: 0;
@@ -55,6 +55,7 @@ body {
     &.current,
     &:hover {
       color: $nav-text-active;
+      font-weight: bold;
     }
   }
 }
@@ -69,7 +70,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   position: relative;
+  margin-bottom: 20px;
   z-index: -2;
 
   &::before {
@@ -81,5 +84,26 @@ body {
     height: 100%;
     width: 100%;
     z-index: -1;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+    margin: 20px 0;
+    letter-spacing: 1px;
+  }
+}
+
+.content {
+  h2 {
+    margin: 20px 0 10px;
+  }
+
+  p {
+    line-height: 30px;
+    letter-spacing: 0.5px;
   }
 }
