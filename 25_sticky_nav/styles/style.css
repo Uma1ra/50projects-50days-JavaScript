@@ -7,6 +7,41 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  background-color: #d3cbc6;
   color: #432f2f;
   padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  background-color: #524748;
+  color: #fff6f0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff6f0;
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+}
+.nav a.current, .nav a:hover {
+  color: #e54100;
 }/*# sourceMappingURL=style.css.map */

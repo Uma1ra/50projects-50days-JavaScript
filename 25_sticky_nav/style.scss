@@ -5,7 +5,7 @@ $nav-bg-color: #524748;
 $bg-color: #d3cbc6;
 $text-color: #432f2f;
 $nav-text-color: #fff6f0;
-$nav-text-active: #752100;
+$nav-text-active: #e54100;
 
 * {
   margin: 0;
@@ -15,6 +15,46 @@ $nav-text-active: #752100;
 
 body {
   font-family: $font;
+  background-color: $bg-color;
   color: $text-color;
   padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  background-color: $nav-bg-color;
+  color: $nav-text-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: $nav-text-color;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+
+    &.current,
+    &:hover {
+      color: $nav-text-active;
+    }
+  }
 }
