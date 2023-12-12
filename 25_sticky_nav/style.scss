@@ -5,7 +5,7 @@ $nav-bg-color: #524748;
 $bg-color: #d3cbc6;
 $text-color: #432f2f;
 $nav-text-color: #fff6f0;
-$nav-text-active: #d73d00;
+$nav-text-active: #c33700;
 
 * {
   margin: 0;
@@ -56,6 +56,25 @@ body {
     &:hover {
       color: $nav-text-active;
       font-weight: bold;
+    }
+  }
+
+  &.active {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    background-color: $bg-color;
+
+    .container {
+      padding: 10px 0;
+    }
+
+    a {
+      color: $text-color;
+
+      &.current,
+      &:hover {
+        color: $nav-text-active;
+        font-weight: bold;
+      }    
     }
   }
 }
