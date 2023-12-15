@@ -3,4 +3,56 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  height: 100vh;
+}
+
+.slider-container {
+  height: 100vh;
+  width: 100wh;
+  position: relative;
+  overflow: hidden;
+}
+
+.left-slide {
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+}
+.left-slide div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.left-slide h1 {
+  font-size: 3.5rem;
+  transform: translateY(-50%);
+}
+.left-slide p {
+  font-size: 1.8rem;
+  transform: translateY(-50%);
+}
+
+.right-slide {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  transition: transform 0.5s ease-in-out;
+}
+.right-slide div {
+  height: 100%;
+  background: no-repeat center center;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
