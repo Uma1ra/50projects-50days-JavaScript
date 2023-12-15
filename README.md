@@ -447,3 +447,20 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   2. could do this for a footer as well(display little when reading the content, and reveal the full footer when hovering or at the page end) 
 
 </details>
+
+<details>
+  <summary>Day26 (Vertical Slider)</summary>
+  
+  **Things I Learned**
+  - nesting div in scss is equivalent to "class > div"
+  - clientHeight
+  - using an arrow function to declare a function(ES6) rather than the traditional style
+  - setting inline styles have merits such as, quick prototyping, fewer http requests, quick render and specifying styles for specific elements
+  - background shorthand
+  - using querySelectAll to define length of an array
+
+  **Original Ideas**
+  1. with setTimeout to automatically slide on a landing page
+  2. presentation-like content
+
+</details>
