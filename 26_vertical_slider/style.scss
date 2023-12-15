@@ -83,6 +83,10 @@ button {
   &:hover {
     color: $arrow-color-hover;
   }
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .down-button {

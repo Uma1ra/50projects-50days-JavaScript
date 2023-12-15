@@ -72,6 +72,9 @@ button {
 button:hover {
   color: #535251;
 }
+button:focus {
+  outline: none;
+}
 
 .down-button {
   transform: translate(-100%);
