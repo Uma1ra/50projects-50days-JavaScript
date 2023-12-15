@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 $font: 'Quicksand', sans-serif;
-$button-color: #E8D9D4;
-$arrow-color: #E3CFC3;
+$button-color: #eae5e3;
+$arrow-color: #b3afad;
+$arrow-color-hover: #535251;
 $text-color: #fff;
 
 * {
@@ -43,12 +44,11 @@ body {
 
   h1 {
     font-size: 3.5rem;
-    transform: translateY(-50%);
+    margin: -30px 0 10px;
   }
 
   p {
     font-size: 1.8rem;
-    transform: translateY(-50%);
   }
 }
 
@@ -66,4 +66,31 @@ body {
     background: no-repeat center center;
     background-size: cover;
   }
+}
+
+button {
+  background-color: $button-color;
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  z-index: 100;
+  font-size: 1.5rem;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  color: $arrow-color;
+
+  &:hover {
+    color: $arrow-color-hover;
+  }
+}
+
+.down-button {
+  transform: translate(-100%);
+  border-radius: 5px 0 0 5px ;
+}
+
+.up-button {
+  transform: translateY(-100%);
+  border-radius: 0 5px 5px 0;
 }

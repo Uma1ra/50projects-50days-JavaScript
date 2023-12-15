@@ -36,11 +36,10 @@ body {
 }
 .left-slide h1 {
   font-size: 3.5rem;
-  transform: translateY(-50%);
+  margin: -30px 0 10px;
 }
 .left-slide p {
   font-size: 1.8rem;
-  transform: translateY(-50%);
 }
 
 .right-slide {
@@ -56,4 +55,30 @@ body {
   width: 100%;
   background: no-repeat center center;
   background-size: cover;
+}
+
+button {
+  background-color: #eae5e3;
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  z-index: 100;
+  font-size: 1.5rem;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  color: #b3afad;
+}
+button:hover {
+  color: #535251;
+}
+
+.down-button {
+  transform: translate(-100%);
+  border-radius: 5px 0 0 5px;
+}
+
+.up-button {
+  transform: translateY(-100%);
+  border-radius: 0 5px 5px 0;
 }/*# sourceMappingURL=style.css.map */
