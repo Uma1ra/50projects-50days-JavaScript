@@ -53,6 +53,7 @@ body {
 }
 .right-slide div {
   height: 100%;
+  width: 100%;
   background: no-repeat center center;
   background-size: cover;
 }/*# sourceMappingURL=style.css.map */
