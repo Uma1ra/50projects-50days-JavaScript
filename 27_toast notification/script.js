@@ -13,5 +13,19 @@ const messages = [
   "download success"
 ];
 
-const types = ["info", "success", "error"]
+const types = ["info", "success", "error"];
+
+btn.addEventListener("click", () => createNotification());
+
+function createNotification(message = null, type = null) {
+  const notification = document.createElement("div");
+  notification.classList.add("toast");
+  notification.classList.add(type ? type : getType());
+
+  notification.innerText = message ? message : getRandomMessage();
+
+  toasts.appendChild(notification);
+
+  // setTimeout(() => {notification.remove()}, 3000);
+};
 
