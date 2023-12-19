@@ -3,6 +3,11 @@
 $font: 'Silkscreen', sans-serif;
 $bg-color: #006e54;
 $btn-color: #c3178a;
+$btn-text-color: #1ff923;
+$toast-bg-color: #e8a2c3;
+$info-color: #f39700;
+$success-color: #00ffb7;
+$error-color: #e5171f;
 
 * {
   margin: 0;
@@ -17,6 +22,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .btn {
@@ -27,10 +33,30 @@ body {
   border: 3px solid #000;
   box-shadow: $bg-color 4px 4px 0 0,#000 4px 4px 0 2px;
   cursor: pointer;
+  color: $btn-text-color;
 
   &:active {
     box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
     outline: 0;
     transform: translate(4px, 4px);
+  }
+}
+
+.toast {
+  background-color: $toast-bg-color;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+
+  .info {
+    color: info-color;
+  }
+
+  .success {
+    color: $success-color;
+  }
+
+  .error {
+    color: $error-color;
   }
 }
