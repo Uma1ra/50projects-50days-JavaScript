@@ -28,7 +28,7 @@ function createNotification() {
 
   notification.innerText = message;
 
-  toasts.appendChild(notification)
+  toasts.appendChild(notification);
 
   setTimeout(() => {notification.remove()}, 3000);
 };
