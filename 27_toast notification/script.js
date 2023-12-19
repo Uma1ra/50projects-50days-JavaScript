@@ -30,7 +30,7 @@ function createNotification() {
 
   toasts.appendChild(notification)
 
-  // setTimeout(() => {notification.remove()}, 3000);
+  setTimeout(() => {notification.remove()}, 3000);
 };
 
 function getRandomMessage() {
