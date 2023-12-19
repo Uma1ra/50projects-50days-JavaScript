@@ -464,3 +464,20 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   2. presentation-like content
 
 </details>
+
+<details>
+  <summary>Day27 (Toast Notification)</summary>
+  
+  **Things I Learned**
+  - I developed an original function for better usability
+  - getting better at coding css on my own
+  - pretty decent color picks based on a random pick
+  - thought a filter method in js would work for matching the type and message, but includes worked better for searching
+  - googling css button ideas was great for inspiration
+  - 
+
+  **Original Ideas**
+  1. flash message or warning paired with disabling a button
+  2. tutorial-like messages paired with conditions
+
+</details>
