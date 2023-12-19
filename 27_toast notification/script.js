@@ -1,5 +1,5 @@
 const btn = document.getElementById("button");
-const toasts = document.getElementById("toast");
+const toasts = document.getElementById("toasts");
 
 const messages = [
   "standard error",
@@ -15,17 +15,34 @@ const messages = [
 
 const types = ["info", "success", "error"];
 
-btn.addEventListener("click", () => createNotification());
+button.addEventListener('click', () => createNotification())
 
-function createNotification(message = null, type = null) {
+function createNotification() {
+  const message = getRandomMessage();
+  const type = getType(message);
+
   const notification = document.createElement("div");
+
   notification.classList.add("toast");
-  notification.classList.add(type ? type : getType());
+  notification.classList.add(type);
 
-  notification.innerText = message ? message : getRandomMessage();
+  notification.innerText = message;
 
-  toasts.appendChild(notification);
+  toasts.appendChild(notification)
 
   // setTimeout(() => {notification.remove()}, 3000);
 };
 
+function getRandomMessage() {
+  return messages[Math.floor(Math.random() * messages.length)];
+};
+
+function getType(message) {
+  const lowerCaseMessage = message.toLowerCase();
+
+  for (const messageType of types) {
+    if (lowerCaseMessage.includes(messageType)) {
+      return messageType;
+    }
+  }
+}
