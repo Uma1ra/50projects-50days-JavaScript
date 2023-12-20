@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+$font: 'Plus Jakarta Sans', sans-serif;
+$bg-color: #6a1917;
+$secondary-color: #e9bc00;
+// $text-color: ;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-color;
+}
+
+input {
+  background-color: $secondary-color;
 }
