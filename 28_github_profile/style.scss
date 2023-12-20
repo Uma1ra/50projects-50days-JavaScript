@@ -9,12 +9,34 @@ $secondary-color: #e9bc00;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $font;
 }
 
 body {
   background-color: $bg-color;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 input {
   background-color: $secondary-color;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  caret-color: $bg-color;
+  font-size: 1.5rem;
+
+  &::placeholder {
+    color: $bg-color;
+    opacity: 0.6;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+  }
 }

@@ -3,12 +3,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 body {
   background-color: #6a1917;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 input {
   background-color: #e9bc00;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  caret-color: #6a1917;
+  font-size: 1.5rem;
+}
+input::placeholder {
+  color: #6a1917;
+  opacity: 0.6;
+}
+input:focus {
+  outline: none;
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
 }/*# sourceMappingURL=style.css.map */
