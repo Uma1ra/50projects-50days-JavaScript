@@ -12,7 +12,7 @@ async function getUser(username) {
     createUserCard(data);
     getRepos(username);
   } catch(err) {
-    if(err.response.staus = 404) {
+    if(err.response.status == 404) {
       createErrorCard("No profile with this username");
     }
   }
@@ -29,7 +29,7 @@ async function getRepos(username) {
 };
 
 function createUserCard(user) {
-  const userId = user.name || user.login;
+  const userID = user.name || user.login;
   const userBio = user.bio ? `<p>${user.bio}</p>` : "";
   const cardHtml = `
   <div class="card">
@@ -38,7 +38,7 @@ function createUserCard(user) {
     </div>
 
     <div class="user-info">
-      <h2>${userId}</h2>
+      <h2>${userID}</h2>
       ${userBio}
       <ul>
         <li>${user.followers} <strong>Followers</strong></li>
