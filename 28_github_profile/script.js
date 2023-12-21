@@ -22,7 +22,7 @@ async function getRepos(username) {
   try {
     const { data } = await axios(APIURL + username + "/repos?sort=created");
 
-    addRepoToCard(data);
+    addReposToCard(data);
   } catch(err) {
     createErrorCard("Problem fetching repos");
   }
@@ -34,7 +34,7 @@ function createUserCard(user) {
   const cardHtml = `
   <div class="card">
     <div>
-      <img src="${user.avatar}" alt="${user.name}" class="avatar">
+      <img src="${user.avatar_url}" alt="${user.name}" class="avatar">
     </div>
 
     <div class="user-info">

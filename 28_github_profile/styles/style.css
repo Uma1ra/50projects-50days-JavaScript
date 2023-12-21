@@ -41,4 +41,60 @@ input::placeholder {
 input:focus {
   outline: none;
   box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.card {
+  max-width: 800px;
+  background-color: #e9bc00;
+  border-radius: 16px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 3rem;
+  margin: 0 1.5rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 10px solid #6a1917;
+  height: 150px;
+  width: 150px;
+}
+
+.user-info {
+  color: #6a1917;
+  margin-left: 2rem;
+}
+.user-info ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+}
+.user-info ul li {
+  display: flex;
+  align-items: center;
+}
+.user-info ul li strong {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.repo {
+  text-decoration: none;
+  background-color: #6a1917;
+  color: #e9bc00;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0.5rem 0.5rem 0;
+  display: inline-block;
+}
+
+@media (max-width: 500px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .user-form {
+    max-width: 400px;
+  }
 }/*# sourceMappingURL=style.css.map */
