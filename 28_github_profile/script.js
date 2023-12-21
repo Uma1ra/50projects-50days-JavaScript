@@ -12,7 +12,7 @@ async function getUser(username) {
     createUserCard(data);
     getRepos(username);
   } catch(err) {
-    if(err.respose.staus = 404) {
+    if(err.response.staus = 404) {
       createErrorCard("No profile with this username");
     }
   }
