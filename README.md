@@ -474,10 +474,18 @@ Referenced Github Repo: https://github.com/bradtraversy/50projects50days
   - pretty decent color picks based on a random pick
   - thought a filter method in js would work for matching the type and message, but includes worked better for searching
   - googling css button ideas was great for inspiration
-  - 
 
   **Original Ideas**
   1. flash message or warning paired with disabling a button
   2. tutorial-like messages paired with conditions
+
+</details>
+
+<details>
+  <summary>Day28 (GitHub Profile)</summary>
+  
+  **Things I Learned**
+  - I wasn't able to resolve the undefined error
+  - third party api still feels like a difficult aspect
 
 </details>
