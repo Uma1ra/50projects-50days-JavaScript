@@ -26,7 +26,7 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
 }
-.heading i {
+.heading i, .heading #times {
   color: #ba2636;
 }
 
