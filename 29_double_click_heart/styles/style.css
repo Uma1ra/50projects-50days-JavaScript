@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,23 +6,33 @@
 }
 
 body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
 .heading {
+  font-family: "Cormorant", serif;
+  font-weight: 400;
   text-align: center;
-  margin: 20px 0;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 5px;
 }
 .heading small {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.heading i {
+  color: #ba2636;
 }
 
 .heartMe {
   height: 440px;
   width: 300px;
   background: url("../images/interior.jpg") no-repeat center center/cover;
-  margin: auto;
+  margin: 1.5rem auto;
 }/*# sourceMappingURL=style.css.map */
